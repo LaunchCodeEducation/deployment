@@ -50,7 +50,7 @@ example.com {
 
 ```
 example.com {
-	reverse_proxy "ipv4-address:running-app-port-number" ie: 8082
+	reverse_proxy ipv4-address:8080 (or whatever port your app is running on)
 }
 ```
 
