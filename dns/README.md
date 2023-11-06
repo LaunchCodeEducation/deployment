@@ -23,3 +23,14 @@ We can break the URL down as follows:
 - `launchcode.`: domain name
 - `.org`: TLD (Top Level Domain) - other examples include .com, .net, .gov, .edu, and .io
 - `/intro-to-web-dev-curriculum`: - resource path for application
+
+## Records
+
+When resolving an ip-address to a domain name you need to specify what type of record will be used. For example an ipv4-address will require an `A` record and an ipv6-address will require an `AAAA` record.
+
+There are many different types of records:
+- Mail Exchanges (MX)
+- Certificate Authorities (CAA)
+- Alias or canonical name (CNAME)
+
+Plus many more. Anytime you are adding a new record to an existing DNS the type of record will always be required.
