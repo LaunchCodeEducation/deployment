@@ -2,6 +2,7 @@
 
 [Caddy Homepage](https://caddyserver.com/)
 [Caddy Documentation](https://caddyserver.com/docs/)
+[LaunchCode Curriculum - Caddy Intro](https://education.launchcode.org/linux/web-server/caddy/setup/index.html)
 
 "Caddy is a powerful, extensible platform to serve your sites, services, and apps, written in Go."
 
@@ -28,6 +29,10 @@ sudo apt install caddy
 ```
 
 ## Caddyfile Configuration
+
+Caddy can be configured in multiple ways. The preferred way is by creating and managing a configuration file named Caddyfile.
+
+The default Caddyfile file that comes with the initial Caddy installation on most Linux operating systems / distros can be located at /etc/caddy/Caddyfile.
 ```bash
 example.com {
 	root * /var/www/wordpress
