@@ -55,4 +55,4 @@ openjdk-17-jre/jammy-security,jammy-updates,now 17.0.8.1+1~us1-0ubuntu1~22.04 am
   OpenJDK Java runtime, using Hotspot JIT
 ```
 
-[User Request Graphic](../../images/deployment-demo.drawio.png)
+![User Request Graphic](../../images/deployment-demo.png)
