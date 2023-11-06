@@ -5,7 +5,6 @@ This repository is meant to serve as a location allowing individuals to configur
 The following resources are currently available:
 - [Cloud Providers](./cloud-providers): Directory containing various cloud providers.
 - [Datastores](./datastores): Directory containing various datastores.
-- [Java](./java)
 - [Linux](./linux): Directory containing information about Linux and its various use-cases.
 - [Web Servers](./web-servers): Directory with information on various web-servers and different use-cases.
 
