@@ -8,3 +8,18 @@ There are a couple of benefits by doing such a thing:
 - easier access to your website
 
 The following article provides a more in-depth guide to the topic: [DigitalOcean Domain Name System Introduction](https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts#conclusion)
+
+## More on DNS / URLs
+
+Using the following example:
+
+```bash
+https://example.launchcode.org/intro-to-web-dev-curriculum
+```
+
+We can break the URL down as follows:
+- `https`: protocol (Hypertext Transfer Protocol Secure)
+- `example.`: subdomain of launchcode.org
+- `launchcode.`: domain name
+- `.org`: TLD (Top Level Domain) - other examples include .com, .net, .gov, .edu, and .io
+- `/intro-to-web-dev-curriculum`: - resource path for application
