@@ -1,3 +1,5 @@
+## Linux Introduction
+
 Linux started as a passion project by Linus Torvalds. He was a fan of the open source operating system Minix and modeled aspects of his new kernel after Minix.
 
 A kernel is the fundamental aspect of an Operating System. The kernel interfaces with hardware, manages memory, devices, and contains a File System. In essence all actions performed by a computer are handled by the kernel.
