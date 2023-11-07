@@ -3,14 +3,15 @@
 This repository is meant to serve as a location allowing individuals to configure a server and deploy a web application to the internet.
 
 The following resources are currently available:
-- [Cloud Providers](./cloud-providers): Directory containing various cloud providers.
-- [Datastores](./datastores): Directory containing various datastores.
+- [Cloud Providers](./cloud-providers): Information/intro to cloud providers.
+- [Datastores](./datastores): Information/intro to datastores.
 - [Deployment Walkthroughs](deployment-walkthroughs): Directory with deployment walkthroughs.
-- [Domain Name Service](./dns): Directory with information in regards to Domains.
-- [Linux](./linux): Directory containing information about Linux and its various use-cases.
-- [Web Servers](./web-servers): Directory with information on various web-servers and different use-cases.
+- [Domain Name Service](./dns): Information/intro to Domains.
+- [Linux](./linux): Information about Linux and its use-cases.
+- [Web Servers](./web-servers): Information on web-servers and different use-cases.
 
 Additionally this leads to:
 - Operations
 - Docker/Containers
 - CI/CD Pipelines
+- Infrastructure as Code
