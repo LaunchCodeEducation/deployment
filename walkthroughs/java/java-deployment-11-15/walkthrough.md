@@ -24,7 +24,7 @@ git clone <github repo>
 
 - regular practice to update server upon creation (sudo apt update / sudo apt upgrade)
 
-  - openjdk-17-jre installed to run a java environment
+  - openjdk-17-jre installed to run a java environment:
     ```bash
     sudo apt install openjdk-17-jre
     ```
@@ -35,17 +35,17 @@ git clone <github repo>
 sudo apt install mysql-server-8.0
 ```
 
-  - new user created in order to access database
+  - new user created in order to access database:
 
-  ```bash
-  CREATE USER 'john'@'localhost' IDENTIFIED BY 'password';
-  ```
+    ```bash
+    CREATE USER 'john'@'localhost' IDENTIFIED BY 'password';
+    ```
 
-  - database within created
+  - database within created:
 
-  ```mysql
-  CREATE DATABASE databaseName;
-  ```
+    ```mysql
+    CREATE DATABASE databaseName;
+    ```
 
 ### Caddy or other web-server to serve application
 
@@ -67,7 +67,7 @@ sudo apt install caddy
   }
   ```
 
-  - reload web-server
+  - reload web-server:
     ```bash
     sudo caddy reload --config /etc/caddy/Caddyfile
     ```
