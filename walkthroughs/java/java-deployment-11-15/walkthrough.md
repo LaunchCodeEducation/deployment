@@ -25,10 +25,9 @@ git clone <github repo>
 - regular practice to update server upon creation (sudo apt update / sudo apt upgrade)
 
   - openjdk-17-jre installed to run a java environment
-
-  ```bash
-  sudo apt install openjdk-17-jre
-  ```
+    ```bash
+    sudo apt install openjdk-17-jre
+    ```
 
 ### mysql to connect to a database
 
