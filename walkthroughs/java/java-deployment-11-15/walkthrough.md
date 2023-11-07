@@ -10,6 +10,8 @@
 
 ### Deliver Jar File of Application (This is a Java/Spring application built with gradle)
 
+The following command will create a jar file for your application:
+
 ```bash
 ./gradlew bootJar
 ```
@@ -27,7 +29,7 @@ git clone <github repo>
 sudo apt install openjdk-17-jre
 ```
 
-- mysql to connect to a database
+### mysql to connect to a database
 
 ```bash
 sudo apt install mysql-server-8.0
@@ -45,7 +47,7 @@ CREATE USER 'john'@'localhost' IDENTIFIED BY 'password';
 CREATE DATABASE databaseName;
 ```
 
-- caddy or other web-server to serve application
+### Caddy or other web-server to serve application
 
 ```bash
 sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
@@ -55,9 +57,9 @@ sudo apt update
 sudo apt install caddy
 ```
 
-- web-server file configured
+### web-server file configured
   - default Caddyfile located at /etc/caddy/Caddyfile on most debian based linux distrubutions
-    - it is worth a note that you can create a Caddyfile anywhere on your server and reload from that location. You just nneed to ensure that its location has the ability to access to the directory of your project
+  - it is worth a note that you can create a Caddyfile anywhere on your server and reload from that location. You just nneed to ensure that its location has the ability to access to the directory of your project
 
   ```bash
   ipv4-address {
